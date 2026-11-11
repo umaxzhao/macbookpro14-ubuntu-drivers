@@ -4,7 +4,7 @@
 
 ## 重要：重装时保留 T1 固件
 
-本仓库不包含设备专属的 `EFI/APPLE/EMBEDDEDOS`、FDRData 或签名票据。T1 当前已修复；重装系统时请勿格式化 EFI 分区或删除其中的 `EFI/APPLE/EMBEDDEDOS`。请在重装之前另行制作加密的离线备份；专属文件不可在不同设备之间复用。下面的驱动源码不能替代这些文件。
+设备专属的 `EFI/APPLE/EMBEDDEDOS` 已加密分片保存在本私有仓库，恢复方法见 [T1-FIRMWARE-RECOVERY.md](T1-FIRMWARE-RECOVERY.md)。专属文件不可在不同设备之间复用。T1 当前已修复；重装系统时请保留 EFI 分区及该目录，并另行制作加密离线备份。下面的驱动源码不能替代这些文件。
 
 ## 解压备份
 
